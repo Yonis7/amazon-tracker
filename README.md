@@ -55,4 +55,4 @@ For any inquiries or questions, please contact [your-email@example.com](mailto:y
 
 ## Video Demo
 <!--  path video recording of app  -->
-![Demo](/amazon-tracker/recording-ezgif.com-video-to-gif-converter.gif)
+![Demo](recording-ezgif.com-video-to-gif-converter.gif)
