@@ -5,8 +5,12 @@ const app = express();
 const fetch = require('cross-fetch');
 app.use(cors());
 
-const username = 'Yaden7';
-const password = 'YoonisAden2965';
+// This is the username and password that we will use to authenticate with the API
+
+
+//rename api key to username and password for env variables
+const username = process.env.API_KEY;
+const password = process.env.API_SECRET;
 
 // This is the route that we will hit to get the deals
 app.get('/deals', async (req, res) => {
